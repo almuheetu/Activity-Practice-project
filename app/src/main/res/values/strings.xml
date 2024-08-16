@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">ActivityPractice</string>
-    <string name="chaking_activity">Chaking Activity...</string>
-    <string name="secondactivity">SecondActivity</string>
-    <string name="thirdactivity">ThirdActivity</string>
+    <string name="chaking_activity">Main Activity</string>
+    <string name="secondactivity">Second Activity</string>
+    <string name="thirdactivity">Third Activity</string>
+    <string name="second_fragment"><![CDATA[Second Activity ->]]></string>
+    <string name="third_fragment">third_Activity -></string>
+    <string name="main_activity"><![CDATA[Main Activity ->]]></string>
 </resources>

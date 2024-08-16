@@ -8,6 +8,7 @@
     tools:context=".ThirdActivity">
 
     <TextView
+        android:id="@+id/third_activity_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/thirdactivity"
@@ -18,5 +19,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         />
+
+    <Button
+        android:id="@+id/third_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/main_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/third_activity_title"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
